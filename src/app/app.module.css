@@ -1,0 +1,20 @@
+.app {
+  border: 1px solid var(--clr-grey-8);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: min(80%, 800px);
+  margin: auto;
+  padding: 1.6rem 2.4rem 2.4rem;
+  background: var(--clr-grey-10);
+  box-shadow: var(--light-shadow);
+  border-radius: 1.2rem;
+}
+
+.app main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2.4rem 0;
+}

@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Alex Morgan",
+        "username": "alex.morgan",
+        "password": "MapleRiver19",
+        "type": "admin"
+    },
+    {
+        "name": "Sofia Martinez",
+        "username": "sofia.martinez",
+        "password": "SunsetTrail42",
+        "type": "user"
+    },
+    {
+        "name": "Daniel Kim",
+        "username": "daniel.kim",
+        "password": "CobaltStone73",
+        "type": "user"
+    },
+    {
+        "name": "Mia Johnson",
+        "username": "mia.johnson",
+        "password": "PineCloud58",
+        "type": "user"
+    },
+    {
+        "name": "Liam Patel",
+        "username": "liam.patel",
+        "password": "AmberField26",
+        "type": "user"
+    },
+    {
+        "name": "Emma Brown",
+        "username": "emma.brown",
+        "password": "SilverStream91",
+        "type": "user"
+    },
+    {
+        "name": "Noah Wilson",
+        "username": "noah.wilson",
+        "password": "HarborWind34",
+        "type": "user"
+    },
+    {
+        "name": "Olivia Davis",
+        "username": "olivia.davis",
+        "password": "MeadowStone67",
+        "type": "user"
+    },
+    {
+        "name": "Ethan Clark",
+        "username": "ethan.clark",
+        "password": "CopperLeaf88",
+        "type": "user"
+    },
+    {
+        "name": "Ava Thompson",
+        "username": "ava.thompson",
+        "password": "BreezeHarbor15",
+        "type": "user"
+    }
+]

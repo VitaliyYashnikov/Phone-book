@@ -1,0 +1,44 @@
+[
+    {
+        "id": "mlgygjfe",
+        "name": "Sara",
+        "phone": "0504444444",
+        "email": "sara@test.cpm",
+        "address": "Haifa"
+    },
+    {
+        "id": "mlgyh1a2",
+        "name": "Daniel Cohen",
+        "phone": "0501234567",
+        "email": "daniel.cohen@example.com",
+        "address": "Tel Aviv"
+    },
+    {
+        "id": "mlgyh3b4",
+        "name": "Maya Levi",
+        "phone": "0529876543",
+        "email": "maya.levi@example.com",
+        "address": "Jerusalem"
+    },
+    {
+        "id": "mlgyh5c6",
+        "name": "Noam Katz",
+        "phone": "0542233445",
+        "email": "noam.katz@example.com",
+        "address": "Rishon LeZion"
+    },
+    {
+        "id": "mlgyh7d8",
+        "name": "Yael Bar",
+        "phone": "0586655443",
+        "email": "yael.bar@example.com",
+        "address": "Netanya"
+    },
+    {
+        "id": "mlgyh9e0",
+        "name": "Eitan Amir",
+        "phone": "0537788990",
+        "email": "eitan.amir@example.com",
+        "address": "Beer Sheva"
+    }
+]

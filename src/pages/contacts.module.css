@@ -1,0 +1,49 @@
+.contacts {
+    padding: 2.4rem;
+    background: var(--clr-white);
+    border-radius: var(--radius);
+    box-shadow: var(--light-shadow);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.6rem;
+    flex-wrap: wrap;
+    margin-bottom: 1.6rem;
+}
+
+.header h2 {
+    margin: 0;
+}
+
+.empty {
+    text-align: center;
+    color: var(--clr-grey-4);
+}
+
+.list {
+    display: grid;
+    gap: 1.2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    background: var(--clr-grey-10);
+    border: 1px solid var(--clr-grey-9);
+    border-radius: 1rem;
+    padding: 1.4rem;
+    box-shadow: var(--light-shadow);
+}
+
+.name {
+    margin: 0 0 0.6rem;
+    color: var(--clr-grey-2);
+}
+
+.meta {
+    margin: 0.2rem 0;
+    color: var(--clr-grey-4);
+}

@@ -1,0 +1,163 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    background: linear-gradient(180deg, var(--clr-white), var(--clr-blue-10));
+    border-radius: 1.2rem;
+    padding: 3.2rem;
+    box-shadow: var(--light-shadow);
+    border: 1px solid var(--clr-grey-9);
+    max-width: 42rem;
+    margin: 0 auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+
+.login h2 {
+    margin: 0;
+    text-align: center;
+}
+
+.label {
+    font-weight: 700;
+    color: var(--clr-grey-2);
+}
+
+.input {
+    border: 1px solid var(--clr-grey-7);
+    border-radius: var(--radius);
+    padding: 1rem 1.2rem;
+    font-size: 1.6rem;
+    background: var(--clr-white);
+    transition: var(--transition);
+}
+
+.input:focus {
+    outline: none;
+    border-color: var(--clr-blue-4);
+    box-shadow: 0 0 0 2px var(--clr-blue-9);
+}
+
+.input::placeholder {
+    color: var(--clr-grey-6);
+}
+
+.inputWrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.inputWrapper .input {
+    width: 100%;
+    padding-right: 3.6rem;
+}
+
+.iconButton {
+    position: absolute;
+    right: 0.8rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.4rem;
+    height: 2.4rem;
+    border: none;
+    background: transparent;
+    color: var(--clr-grey-4);
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.iconButton:hover {
+    color: var(--clr-blue-3);
+}
+
+.iconButton:focus-visible {
+    outline: 2px solid var(--clr-blue-4);
+    border-radius: 999px;
+}
+
+.message {
+    margin: 0;
+    font-weight: 700;
+    text-align: center;
+}
+
+.error {
+    color: var(--clr-red-dark);
+}
+
+.success {
+    color: var(--clr-blue-3);
+}
+
+.testUsers {
+    margin-top: 0.8rem;
+    border-top: 1px solid var(--clr-grey-9);
+    padding-top: 1.6rem;
+}
+
+.testTitle {
+    margin: 0 0 1rem;
+    text-align: center;
+    font-size: 1.6rem;
+    color: var(--clr-grey-2);
+}
+
+.userList {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    margin: 0;
+    padding: 0;
+}
+
+.userItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.8rem 1rem;
+    border-radius: 0.8rem;
+    background: var(--clr-white);
+    border: 1px solid var(--clr-grey-9);
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.userName {
+    font-weight: 700;
+    color: var(--clr-grey-2);
+}
+
+.userMeta {
+    font-size: 1.3rem;
+    color: var(--clr-grey-5);
+}
+
+.userPassword {
+    font-size: 1.2rem;
+    color: var(--clr-grey-4);
+}
+
+.fillButton {
+    border: none;
+    border-radius: 999px;
+    padding: 0.4rem 1.2rem;
+    background: var(--clr-blue-10);
+    color: var(--clr-blue-2);
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.fillButton:hover {
+    background: var(--clr-blue-8);
+}

@@ -1,0 +1,10 @@
+.groups {
+    padding: 2.4rem;
+    background: var(--clr-white);
+    border-radius: var(--radius);
+    box-shadow: var(--light-shadow);
+}
+
+.groups h2 {
+    margin-bottom: 1rem;
+}
